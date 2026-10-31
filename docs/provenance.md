@@ -4,4 +4,4 @@ This is the author's personal C11 CPU scheduling project; ownership has been con
 
 The current implementation and documentation were prepared with coding-agent assistance during portfolio organization. Executed checks are recorded in [validation](validation.md); they establish simulator behavior within the documented model, rather than unaided historical authorship or real operating-system performance.
 
-No license has been selected automatically. Final source/privacy review and explicit authorization of remote publication remain separate steps. No remote repository was created or pushed.
+This project has a private GitHub remote. The user's confirmation establishes personal ownership of the C11 implementation; it does not itself change the repository's visibility. No license has been selected automatically, and public release remains a separate action.

@@ -65,7 +65,7 @@ cmake --build build
 ctest --test-dir build --output-on-failure
 ```
 
-CMake execution is **Not Verified** because CMake is unavailable in the current environment. Direct compiler builds were executed after the final layout change. Generated files are ignored under `build/`.
+CMake configuration, Release build, and all three registered CTest targets were verified on macOS arm64 with Clang 23.1.4 and temporary CMake 3.31.10. Generated files were written outside the repository. Direct compiler builds were also executed after the final layout change. Generated files are ignored under `build/`.
 
 Input is strict unquoted CSV `id,arrival,burst`, with an optional header. IDs use letters, digits, `_` or `-`; `IDLE` and `SWITCH` are reserved. Arrival must be nonnegative, burst positive and IDs unique. Empty input, blank lines, `#` comments and CRLF are supported. The CLI limits IDs to 63 bytes and uses a 512-byte input-line buffer; quoted fields and whitespace normalization are outside scope.
 

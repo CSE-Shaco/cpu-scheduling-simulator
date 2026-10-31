@@ -2,6 +2,8 @@
 
 Final C11 source verified 2026-10-31 on Darwin arm64 with Apple clang 21.0.0 and Python 3.15.1. Builds and sanitizer artifacts were written to private temporary directories, not the repository.
 
+A separate Release CMake/CTest verification was completed on 2026-10-31 on Darwin arm64 with Homebrew Clang 23.1.4, Python 3.15.1 and temporary CMake 3.31.10. Configuration and build succeeded; all three registered tests passed: `scheduler_correctness`, `scheduler_cli`, and `scheduler_tick_oracle`. The build directory was `/tmp/cpu-scheduling-cmake-release.dVGNRh`, outside the repository. Command output is recorded in `portfolio-management/public-readiness-checks/` in the portfolio workspace.
+
 ## Checked-in Test Entry Point
 
 The documented `tests/run_tests.sh` entrypoint was run against a fresh copy of the project source. It uses `cc` (or `CC`) with `-std=c11 -O2 -Wall -Wextra -Wpedantic -Werror`, then runs C assertions, CLI cases, and the independent tick oracle.
@@ -24,4 +26,4 @@ A `-DNDEBUG -O3` build kept all 208 C checks active. A deliberately incorrect fi
 
 The checked-in independent oracle covers zero context-switch cost. The simulator returns deterministic model outcomes, not host execution-time benchmarks; no scheduling speedup or real-kernel behavior is claimed.
 
-CMake/CTest is **Not Verified** because CMake is unavailable. A separate install attempt did not produce a usable CMake binary. The optional CMake build declares C11 targets and registers Python checks when an interpreter is available.
+CMake/CTest is verified for this configuration and host. The optional CMake build declares C11 targets and registers Python checks when an interpreter is available; this result does not establish behavior on other toolchains or platforms.
