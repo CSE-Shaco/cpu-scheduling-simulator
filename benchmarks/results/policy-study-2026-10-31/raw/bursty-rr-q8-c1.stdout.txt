@@ -1,0 +1,30 @@
+Gantt (half-open intervals)
+[0,8) A
+[8,9) SWITCH
+[9,12) B
+[12,13) SWITCH
+[13,15) C
+[15,16) SWITCH
+[16,24) D
+[24,25) SWITCH
+[25,26) E
+[26,27) SWITCH
+[27,29) A
+[29,30) SWITCH
+[30,32) F
+[32,33) SWITCH
+[33,37) G
+[37,38) SWITCH
+[38,39) H
+[39,40) SWITCH
+[40,41) D
+id,arrival,burst,start,completion,waiting,turnaround,response
+A,0,10,0,29,19,29,0
+B,0,3,9,12,9,12,9
+C,1,2,13,15,12,14,12
+D,8,9,16,41,24,33,8
+E,8,1,25,26,17,18,17
+F,9,2,30,32,21,23,21
+G,20,4,33,37,13,17,13
+H,20,1,38,39,18,19,18
+makespan=41 busy=32 idle=0 switching=9 context_switches=9 average_waiting=16.625 average_turnaround=20.625

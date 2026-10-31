@@ -1,0 +1,72 @@
+Gantt (half-open intervals)
+[0,1) A
+[1,2) SWITCH
+[2,3) B
+[3,4) SWITCH
+[4,5) C
+[5,6) SWITCH
+[6,7) A
+[7,8) SWITCH
+[8,9) B
+[9,10) SWITCH
+[10,11) C
+[11,12) SWITCH
+[12,13) A
+[13,14) SWITCH
+[14,15) D
+[15,16) SWITCH
+[16,17) E
+[17,18) SWITCH
+[18,19) F
+[19,20) SWITCH
+[20,21) B
+[21,22) SWITCH
+[22,23) A
+[23,24) SWITCH
+[24,25) D
+[25,26) SWITCH
+[26,27) F
+[27,28) SWITCH
+[28,29) G
+[29,30) SWITCH
+[30,31) H
+[31,32) SWITCH
+[32,33) A
+[33,34) SWITCH
+[34,35) D
+[35,36) SWITCH
+[36,37) G
+[37,38) SWITCH
+[38,39) A
+[39,40) SWITCH
+[40,41) D
+[41,42) SWITCH
+[42,43) G
+[43,44) SWITCH
+[44,45) A
+[45,46) SWITCH
+[46,47) D
+[47,48) SWITCH
+[48,49) G
+[49,50) SWITCH
+[50,51) A
+[51,52) SWITCH
+[52,53) D
+[53,54) SWITCH
+[54,55) A
+[55,56) SWITCH
+[56,57) D
+[57,58) SWITCH
+[58,59) A
+[59,60) SWITCH
+[60,62) D
+id,arrival,burst,start,completion,waiting,turnaround,response
+A,0,10,0,59,49,59,0
+B,0,3,2,21,18,21,2
+C,1,2,4,11,8,10,3
+D,8,9,14,62,45,54,6
+E,8,1,16,17,8,9,8
+F,9,2,18,27,16,18,9
+G,20,4,28,49,25,29,8
+H,20,1,30,31,10,11,10
+makespan=62 busy=32 idle=0 switching=30 context_switches=30 average_waiting=22.375 average_turnaround=26.375

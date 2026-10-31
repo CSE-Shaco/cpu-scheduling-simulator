@@ -1,0 +1,17 @@
+Gantt (half-open intervals)
+[0,2) A
+[2,4) B
+[4,6) C
+[6,7) D
+[7,12) B
+[12,16) E
+[16,19) F
+[19,35) A
+id,arrival,burst,start,completion,waiting,turnaround,response
+A,0,18,0,35,17,35,0
+B,2,7,2,12,3,10,0
+C,4,2,4,6,0,2,0
+D,5,1,6,7,1,2,1
+E,9,4,12,16,3,7,3
+F,13,3,16,19,3,6,3
+makespan=35 busy=35 idle=0 switching=0 context_switches=7 average_waiting=4.500 average_turnaround=10.333

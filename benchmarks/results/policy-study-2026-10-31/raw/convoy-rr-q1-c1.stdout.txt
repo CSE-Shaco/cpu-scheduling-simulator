@@ -1,0 +1,31 @@
+Gantt (half-open intervals)
+[0,1) LONG
+[1,2) SWITCH
+[2,3) S1
+[3,4) SWITCH
+[4,5) S2
+[5,6) SWITCH
+[6,7) S3
+[7,8) SWITCH
+[8,9) S4
+[9,10) SWITCH
+[10,11) LONG
+[11,12) SWITCH
+[12,13) S1
+[13,14) SWITCH
+[14,15) S3
+[15,16) SWITCH
+[16,17) S4
+[17,18) SWITCH
+[18,19) LONG
+[19,20) SWITCH
+[20,21) S3
+[21,22) SWITCH
+[22,43) LONG
+id,arrival,burst,start,completion,waiting,turnaround,response
+LONG,0,24,0,43,19,43,0
+S1,0,2,2,13,11,13,2
+S2,0,1,4,5,4,5,4
+S3,0,3,6,21,18,21,6
+S4,0,2,8,17,15,17,8
+makespan=43 busy=32 idle=0 switching=11 context_switches=11 average_waiting=13.400 average_turnaround=19.800

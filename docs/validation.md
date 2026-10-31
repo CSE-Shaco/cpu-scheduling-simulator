@@ -1,5 +1,18 @@
 # Validation Record
 
+## Scheduling case-study extension
+
+The C11 engine, CLI and public header remain byte-identical to commit `9bba2d6`. The study adds explicit inputs, output validation, analysis and an import-safe wrapper around the unchanged integer-tick oracle algorithm.
+
+- Actual study: 116 complete simulator invocations (84 policy/quantum/cost cases and 32 finite-prefix cases), with continuous timeline, service, waiting/turnaround/response and switching-accounting checks.
+- Independent zero-cost oracle: 74 study configurations match per-task first-service and completion times. Nonzero-cost configurations are not claimed to have an independent oracle; their checks include accounting and a hand-derived FCFS cost-1 example.
+- Experiment suite: 14 tests pass, including four distinct hand-workload policy outcomes, finite-prefix clipping/termination, SJF/SRTF postponement constructions, corrupt output rejection, failed-run evidence, existing-output protection and exact analysis replay.
+- Exact replay: summary JSON/CSV and three SVGs regenerate byte for byte from the recorded input/CLI-output snapshot. SVG XML/numeric geometry checks are separate from rendered visual review.
+
+See [experiment reproduction](../benchmarks/README.md) and the [interpretation report](scheduling-analysis.md). All reported case-study time is abstract simulated time; no elapsed host-performance benchmark is claimed.
+
+## Earlier core verification
+
 Final C11 source verified 2026-10-31 on Darwin arm64 with Apple clang 21.0.0 and Python 3.15.1. Builds and sanitizer artifacts were written to private temporary directories, not the repository.
 
 A separate Release CMake/CTest verification was completed on 2026-10-31 on Darwin arm64 with Homebrew Clang 23.1.4, Python 3.15.1 and temporary CMake 3.31.10. Configuration and build succeeded; all three registered tests passed: `scheduler_correctness`, `scheduler_cli`, and `scheduler_tick_oracle`. The build directory was `/tmp/cpu-scheduling-cmake-release.dVGNRh`, outside the repository. Command output is recorded in `portfolio-management/public-readiness-checks/` in the portfolio workspace.

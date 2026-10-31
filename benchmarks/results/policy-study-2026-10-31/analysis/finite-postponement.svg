@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1160" height="690" viewBox="0 0 1160 690">
+<rect width="100%" height="100%" fill="white"/>
+<g font-family="sans-serif" fill="#162b3a">
+<text x="24" y="30" font-size="21">Finite short-job streams: long-job progress and postponement</text>
+<text x="24" y="55" font-size="13">FCFS: blue. SJF: orange. SRTF: green. RR q=2: purple. Switch cost = 0.</text>
+<text x="24" y="76" font-size="12">Full simulations finish. These plots observe [0,H); finite prefixes do not prove infinite starvation.</text>
+<text x="30" y="120" font-size="15" font-weight="700">ready-short-stream: LONG service before H</text>
+<path d="M75,300.00 H540" stroke="#e1e7ec"/>
+<text x="30" y="304.00" font-size="10">0</text>
+<path d="M75,265.00 H540" stroke="#e1e7ec"/>
+<text x="30" y="269.00" font-size="10">16</text>
+<path d="M75,230.00 H540" stroke="#e1e7ec"/>
+<text x="30" y="234.00" font-size="10">32</text>
+<path d="M75,195.00 H540" stroke="#e1e7ec"/>
+<text x="30" y="199.00" font-size="10">48</text>
+<path d="M75,160.00 H540" stroke="#e1e7ec"/>
+<text x="30" y="164.00" font-size="10">64</text>
+<polyline fill="none" stroke="#286ba6" stroke-width="2" points="100.000,265.000 235.000,230.000 370.000,160.000 505.000,160.000"/>
+<circle cx="100.000" cy="265.000" r="4" fill="#286ba6"/>
+<circle cx="235.000" cy="230.000" r="4" fill="#286ba6"/>
+<circle cx="370.000" cy="160.000" r="4" fill="#286ba6"/>
+<circle cx="505.000" cy="160.000" r="4" fill="#286ba6"/>
+<polyline fill="none" stroke="#ce7429" stroke-width="2" points="100.000,300.000 235.000,300.000 370.000,300.000 505.000,300.000"/>
+<circle cx="100.000" cy="300.000" r="4" fill="#ce7429"/>
+<circle cx="235.000" cy="300.000" r="4" fill="#ce7429"/>
+<circle cx="370.000" cy="300.000" r="4" fill="#ce7429"/>
+<circle cx="505.000" cy="300.000" r="4" fill="#ce7429"/>
+<polyline fill="none" stroke="#26836b" stroke-width="2" points="100.000,300.000 235.000,300.000 370.000,300.000 505.000,300.000"/>
+<circle cx="100.000" cy="300.000" r="4" fill="#26836b"/>
+<circle cx="235.000" cy="300.000" r="4" fill="#26836b"/>
+<circle cx="370.000" cy="300.000" r="4" fill="#26836b"/>
+<circle cx="505.000" cy="300.000" r="4" fill="#26836b"/>
+<polyline fill="none" stroke="#8050a2" stroke-width="2" points="100.000,286.875 235.000,282.500 370.000,269.375 505.000,256.250"/>
+<circle cx="100.000" cy="286.875" r="4" fill="#8050a2"/>
+<circle cx="235.000" cy="282.500" r="4" fill="#8050a2"/>
+<circle cx="370.000" cy="269.375" r="4" fill="#8050a2"/>
+<circle cx="505.000" cy="256.250" r="4" fill="#8050a2"/>
+<text x="90" y="322" font-size="11">H=16</text>
+<text x="225" y="322" font-size="11">H=32</text>
+<text x="360" y="322" font-size="11">H=64</text>
+<text x="495" y="322" font-size="11">H=128</text>
+<text x="30" y="375" font-size="15" font-weight="700">ready-short-stream: Longest ready/no-service gap before H</text>
+<path d="M75,555.00 H540" stroke="#e1e7ec"/>
+<text x="30" y="559.00" font-size="10">0</text>
+<path d="M75,520.00 H540" stroke="#e1e7ec"/>
+<text x="30" y="524.00" font-size="10">32</text>
+<path d="M75,485.00 H540" stroke="#e1e7ec"/>
+<text x="30" y="489.00" font-size="10">64</text>
+<path d="M75,450.00 H540" stroke="#e1e7ec"/>
+<text x="30" y="454.00" font-size="10">96</text>
+<path d="M75,415.00 H540" stroke="#e1e7ec"/>
+<text x="30" y="419.00" font-size="10">128</text>
+<polyline fill="none" stroke="#286ba6" stroke-width="2" points="100.000,555.000 235.000,555.000 370.000,555.000 505.000,555.000"/>
+<circle cx="100.000" cy="555.000" r="4" fill="#286ba6"/>
+<circle cx="235.000" cy="555.000" r="4" fill="#286ba6"/>
+<circle cx="370.000" cy="555.000" r="4" fill="#286ba6"/>
+<circle cx="505.000" cy="555.000" r="4" fill="#286ba6"/>
+<polyline fill="none" stroke="#ce7429" stroke-width="2" points="100.000,537.500 235.000,520.000 370.000,485.000 505.000,415.000"/>
+<circle cx="100.000" cy="537.500" r="4" fill="#ce7429"/>
+<circle cx="235.000" cy="520.000" r="4" fill="#ce7429"/>
+<circle cx="370.000" cy="485.000" r="4" fill="#ce7429"/>
+<circle cx="505.000" cy="415.000" r="4" fill="#ce7429"/>
+<polyline fill="none" stroke="#26836b" stroke-width="2" points="100.000,537.500 235.000,520.000 370.000,485.000 505.000,415.000"/>
+<circle cx="100.000" cy="537.500" r="4" fill="#26836b"/>
+<circle cx="235.000" cy="520.000" r="4" fill="#26836b"/>
+<circle cx="370.000" cy="485.000" r="4" fill="#26836b"/>
+<circle cx="505.000" cy="415.000" r="4" fill="#26836b"/>
+<polyline fill="none" stroke="#8050a2" stroke-width="2" points="100.000,549.531 235.000,545.156 370.000,540.781 505.000,534.219"/>
+<circle cx="100.000" cy="549.531" r="4" fill="#8050a2"/>
+<circle cx="235.000" cy="545.156" r="4" fill="#8050a2"/>
+<circle cx="370.000" cy="540.781" r="4" fill="#8050a2"/>
+<circle cx="505.000" cy="534.219" r="4" fill="#8050a2"/>
+<text x="90" y="577" font-size="11">H=16</text>
+<text x="225" y="577" font-size="11">H=32</text>
+<text x="360" y="577" font-size="11">H=64</text>
+<text x="495" y="577" font-size="11">H=128</text>
+<text x="600" y="120" font-size="15" font-weight="700">late-short-stream: LONG service before H</text>
+<path d="M645,300.00 H1110" stroke="#e1e7ec"/>
+<text x="600" y="304.00" font-size="10">0</text>
+<path d="M645,265.00 H1110" stroke="#e1e7ec"/>
+<text x="600" y="269.00" font-size="10">16</text>
+<path d="M645,230.00 H1110" stroke="#e1e7ec"/>
+<text x="600" y="234.00" font-size="10">32</text>
+<path d="M645,195.00 H1110" stroke="#e1e7ec"/>
+<text x="600" y="199.00" font-size="10">48</text>
+<path d="M645,160.00 H1110" stroke="#e1e7ec"/>
+<text x="600" y="164.00" font-size="10">64</text>
+<polyline fill="none" stroke="#286ba6" stroke-width="2" points="670.000,265.000 805.000,230.000 940.000,160.000 1075.000,160.000"/>
+<circle cx="670.000" cy="265.000" r="4" fill="#286ba6"/>
+<circle cx="805.000" cy="230.000" r="4" fill="#286ba6"/>
+<circle cx="940.000" cy="160.000" r="4" fill="#286ba6"/>
+<circle cx="1075.000" cy="160.000" r="4" fill="#286ba6"/>
+<polyline fill="none" stroke="#ce7429" stroke-width="2" points="670.000,265.000 805.000,230.000 940.000,160.000 1075.000,160.000"/>
+<circle cx="670.000" cy="265.000" r="4" fill="#ce7429"/>
+<circle cx="805.000" cy="230.000" r="4" fill="#ce7429"/>
+<circle cx="940.000" cy="160.000" r="4" fill="#ce7429"/>
+<circle cx="1075.000" cy="160.000" r="4" fill="#ce7429"/>
+<polyline fill="none" stroke="#26836b" stroke-width="2" points="670.000,297.812 805.000,297.812 940.000,297.812 1075.000,297.812"/>
+<circle cx="670.000" cy="297.812" r="4" fill="#26836b"/>
+<circle cx="805.000" cy="297.812" r="4" fill="#26836b"/>
+<circle cx="940.000" cy="297.812" r="4" fill="#26836b"/>
+<circle cx="1075.000" cy="297.812" r="4" fill="#26836b"/>
+<polyline fill="none" stroke="#8050a2" stroke-width="2" points="670.000,286.875 805.000,278.125 940.000,269.375 1075.000,256.250"/>
+<circle cx="670.000" cy="286.875" r="4" fill="#8050a2"/>
+<circle cx="805.000" cy="278.125" r="4" fill="#8050a2"/>
+<circle cx="940.000" cy="269.375" r="4" fill="#8050a2"/>
+<circle cx="1075.000" cy="256.250" r="4" fill="#8050a2"/>
+<text x="660" y="322" font-size="11">H=16</text>
+<text x="795" y="322" font-size="11">H=32</text>
+<text x="930" y="322" font-size="11">H=64</text>
+<text x="1065" y="322" font-size="11">H=128</text>
+<text x="600" y="375" font-size="15" font-weight="700">late-short-stream: Longest ready/no-service gap before H</text>
+<path d="M645,555.00 H1110" stroke="#e1e7ec"/>
+<text x="600" y="559.00" font-size="10">0</text>
+<path d="M645,520.00 H1110" stroke="#e1e7ec"/>
+<text x="600" y="524.00" font-size="10">32</text>
+<path d="M645,485.00 H1110" stroke="#e1e7ec"/>
+<text x="600" y="489.00" font-size="10">64</text>
+<path d="M645,450.00 H1110" stroke="#e1e7ec"/>
+<text x="600" y="454.00" font-size="10">96</text>
+<path d="M645,415.00 H1110" stroke="#e1e7ec"/>
+<text x="600" y="419.00" font-size="10">128</text>
+<polyline fill="none" stroke="#286ba6" stroke-width="2" points="670.000,555.000 805.000,555.000 940.000,555.000 1075.000,555.000"/>
+<circle cx="670.000" cy="555.000" r="4" fill="#286ba6"/>
+<circle cx="805.000" cy="555.000" r="4" fill="#286ba6"/>
+<circle cx="940.000" cy="555.000" r="4" fill="#286ba6"/>
+<circle cx="1075.000" cy="555.000" r="4" fill="#286ba6"/>
+<polyline fill="none" stroke="#ce7429" stroke-width="2" points="670.000,555.000 805.000,555.000 940.000,555.000 1075.000,555.000"/>
+<circle cx="670.000" cy="555.000" r="4" fill="#ce7429"/>
+<circle cx="805.000" cy="555.000" r="4" fill="#ce7429"/>
+<circle cx="940.000" cy="555.000" r="4" fill="#ce7429"/>
+<circle cx="1075.000" cy="555.000" r="4" fill="#ce7429"/>
+<polyline fill="none" stroke="#26836b" stroke-width="2" points="670.000,538.594 805.000,521.094 940.000,486.094 1075.000,416.094"/>
+<circle cx="670.000" cy="538.594" r="4" fill="#26836b"/>
+<circle cx="805.000" cy="521.094" r="4" fill="#26836b"/>
+<circle cx="940.000" cy="486.094" r="4" fill="#26836b"/>
+<circle cx="1075.000" cy="416.094" r="4" fill="#26836b"/>
+<polyline fill="none" stroke="#8050a2" stroke-width="2" points="670.000,550.625 805.000,546.250 940.000,541.875 1075.000,535.312"/>
+<circle cx="670.000" cy="550.625" r="4" fill="#8050a2"/>
+<circle cx="805.000" cy="546.250" r="4" fill="#8050a2"/>
+<circle cx="940.000" cy="541.875" r="4" fill="#8050a2"/>
+<circle cx="1075.000" cy="535.312" r="4" fill="#8050a2"/>
+<text x="660" y="577" font-size="11">H=16</text>
+<text x="795" y="577" font-size="11">H=32</text>
+<text x="930" y="577" font-size="11">H=64</text>
+<text x="1065" y="577" font-size="11">H=128</text>
+<text x="24" y="650" font-size="12">Horizon positions are categorical. Equal curves overlap; exact values and first-start/completion are in summary.csv.</text></g></svg>

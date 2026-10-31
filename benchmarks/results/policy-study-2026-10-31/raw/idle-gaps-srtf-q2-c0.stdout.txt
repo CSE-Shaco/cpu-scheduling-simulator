@@ -1,0 +1,17 @@
+Gantt (half-open intervals)
+[0,3) IDLE
+[3,6) A
+[6,15) IDLE
+[15,17) B
+[17,18) C
+[18,30) IDLE
+[30,34) D
+[34,45) IDLE
+[45,47) E
+id,arrival,burst,start,completion,waiting,turnaround,response
+A,3,3,3,6,0,3,0
+B,15,2,15,17,0,2,0
+C,16,1,17,18,1,2,1
+D,30,4,30,34,0,4,0
+E,45,2,45,47,0,2,0
+makespan=47 busy=12 idle=35 switching=0 context_switches=1 average_waiting=0.200 average_turnaround=2.600

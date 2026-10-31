@@ -1,0 +1,198 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1160" height="930" viewBox="0 0 1160 930">
+<rect width="100%" height="100%" fill="white"/>
+<g font-family="sans-serif" fill="#162b3a">
+<text x="24" y="30" font-size="21">Scheduling policy outcomes: zero context-switch cost</text>
+<text x="24" y="55" font-size="13">Blue: mean waiting. Orange: mean response. Abstract simulation units; lower is better.</text>
+<text x="30" y="92" font-size="16" font-weight="700">convoy</text>
+<path d="M65,282.00 H560" stroke="#e1e7ec"/>
+<text x="30" y="286.00" font-size="10">0.0</text>
+<path d="M65,243.25 H560" stroke="#e1e7ec"/>
+<text x="30" y="247.25" font-size="10">6.0</text>
+<path d="M65,204.50 H560" stroke="#e1e7ec"/>
+<text x="30" y="208.50" font-size="10">12.0</text>
+<path d="M65,165.75 H560" stroke="#e1e7ec"/>
+<text x="30" y="169.75" font-size="10">18.0</text>
+<path d="M65,127.00 H560" stroke="#e1e7ec"/>
+<text x="30" y="131.00" font-size="10">24.0</text>
+<rect x="78" y="143.607" width="20" height="138.393" fill="#286ba6"/>
+<rect x="100" y="143.607" width="20" height="138.393" fill="#ce7429"/>
+<text x="75" y="304" font-size="10">FCFS</text>
+<rect x="147" y="260.012" width="20" height="21.988" fill="#286ba6"/>
+<rect x="169" y="260.012" width="20" height="21.988" fill="#ce7429"/>
+<text x="144" y="304" font-size="10">SJF</text>
+<rect x="216" y="260.012" width="20" height="21.988" fill="#286ba6"/>
+<rect x="238" y="260.012" width="20" height="21.988" fill="#ce7429"/>
+<text x="213" y="304" font-size="10">SRTF</text>
+<rect x="285" y="243.198" width="20" height="38.802" fill="#286ba6"/>
+<rect x="307" y="269.066" width="20" height="12.934" fill="#ce7429"/>
+<text x="282" y="304" font-size="10">RR q=1</text>
+<rect x="354" y="243.198" width="20" height="38.802" fill="#286ba6"/>
+<rect x="376" y="258.719" width="20" height="23.281" fill="#ce7429"/>
+<text x="351" y="304" font-size="10">RR q=2</text>
+<rect x="423" y="236.731" width="20" height="45.269" fill="#286ba6"/>
+<rect x="445" y="247.078" width="20" height="34.922" fill="#ce7429"/>
+<text x="420" y="304" font-size="10">RR q=4</text>
+<rect x="492" y="216.037" width="20" height="65.963" fill="#286ba6"/>
+<rect x="514" y="226.384" width="20" height="55.616" fill="#ce7429"/>
+<text x="489" y="304" font-size="10">RR q=8</text>
+<text x="600" y="92" font-size="16" font-weight="700">staggered</text>
+<path d="M635,282.00 H1130" stroke="#e1e7ec"/>
+<text x="600" y="286.00" font-size="10">0.0</text>
+<path d="M635,243.25 H1130" stroke="#e1e7ec"/>
+<text x="600" y="247.25" font-size="10">4.5</text>
+<path d="M635,204.50 H1130" stroke="#e1e7ec"/>
+<text x="600" y="208.50" font-size="10">9.1</text>
+<path d="M635,165.75 H1130" stroke="#e1e7ec"/>
+<text x="600" y="169.75" font-size="10">13.6</text>
+<path d="M635,127.00 H1130" stroke="#e1e7ec"/>
+<text x="600" y="131.00" font-size="10">18.1</text>
+<rect x="648" y="143.607" width="20" height="138.393" fill="#286ba6"/>
+<rect x="670" y="143.607" width="20" height="138.393" fill="#ce7429"/>
+<text x="645" y="304" font-size="10">FCFS</text>
+<rect x="717" y="172.142" width="20" height="109.858" fill="#286ba6"/>
+<rect x="739" y="172.142" width="20" height="109.858" fill="#ce7429"/>
+<text x="714" y="304" font-size="10">SJF</text>
+<rect x="786" y="243.478" width="20" height="38.522" fill="#286ba6"/>
+<rect x="808" y="272.013" width="20" height="9.987" fill="#ce7429"/>
+<text x="783" y="304" font-size="10">SRTF</text>
+<rect x="855" y="200.676" width="20" height="81.324" fill="#286ba6"/>
+<rect x="877" y="272.013" width="20" height="9.987" fill="#ce7429"/>
+<text x="852" y="304" font-size="10">RR q=1</text>
+<rect x="924" y="199.250" width="20" height="82.750" fill="#286ba6"/>
+<rect x="946" y="260.599" width="20" height="21.401" fill="#ce7429"/>
+<text x="921" y="304" font-size="10">RR q=2</text>
+<rect x="993" y="200.676" width="20" height="81.324" fill="#286ba6"/>
+<rect x="1015" y="234.918" width="20" height="47.082" fill="#ce7429"/>
+<text x="990" y="304" font-size="10">RR q=4</text>
+<rect x="1062" y="167.862" width="20" height="114.138" fill="#286ba6"/>
+<rect x="1084" y="192.116" width="20" height="89.884" fill="#ce7429"/>
+<text x="1059" y="304" font-size="10">RR q=8</text>
+<text x="30" y="367" font-size="16" font-weight="700">idle-gaps</text>
+<path d="M65,557.00 H560" stroke="#e1e7ec"/>
+<text x="30" y="561.00" font-size="10">0.0</text>
+<path d="M65,518.25 H560" stroke="#e1e7ec"/>
+<text x="30" y="522.25" font-size="10">0.1</text>
+<path d="M65,479.50 H560" stroke="#e1e7ec"/>
+<text x="30" y="483.50" font-size="10">0.1</text>
+<path d="M65,440.75 H560" stroke="#e1e7ec"/>
+<text x="30" y="444.75" font-size="10">0.2</text>
+<path d="M65,402.00 H560" stroke="#e1e7ec"/>
+<text x="30" y="406.00" font-size="10">0.2</text>
+<rect x="78" y="418.607" width="20" height="138.393" fill="#286ba6"/>
+<rect x="100" y="418.607" width="20" height="138.393" fill="#ce7429"/>
+<text x="75" y="579" font-size="10">FCFS</text>
+<rect x="147" y="418.607" width="20" height="138.393" fill="#286ba6"/>
+<rect x="169" y="418.607" width="20" height="138.393" fill="#ce7429"/>
+<text x="144" y="579" font-size="10">SJF</text>
+<rect x="216" y="418.607" width="20" height="138.393" fill="#286ba6"/>
+<rect x="238" y="418.607" width="20" height="138.393" fill="#ce7429"/>
+<text x="213" y="579" font-size="10">SRTF</text>
+<rect x="285" y="418.607" width="20" height="138.393" fill="#286ba6"/>
+<rect x="307" y="557.000" width="20" height="0.000" fill="#ce7429"/>
+<text x="282" y="579" font-size="10">RR q=1</text>
+<rect x="354" y="418.607" width="20" height="138.393" fill="#286ba6"/>
+<rect x="376" y="418.607" width="20" height="138.393" fill="#ce7429"/>
+<text x="351" y="579" font-size="10">RR q=2</text>
+<rect x="423" y="418.607" width="20" height="138.393" fill="#286ba6"/>
+<rect x="445" y="418.607" width="20" height="138.393" fill="#ce7429"/>
+<text x="420" y="579" font-size="10">RR q=4</text>
+<rect x="492" y="418.607" width="20" height="138.393" fill="#286ba6"/>
+<rect x="514" y="418.607" width="20" height="138.393" fill="#ce7429"/>
+<text x="489" y="579" font-size="10">RR q=8</text>
+<text x="600" y="367" font-size="16" font-weight="700">equal-bursts</text>
+<path d="M635,557.00 H1130" stroke="#e1e7ec"/>
+<text x="600" y="561.00" font-size="10">0.0</text>
+<path d="M635,518.25 H1130" stroke="#e1e7ec"/>
+<text x="600" y="522.25" font-size="10">5.6</text>
+<path d="M635,479.50 H1130" stroke="#e1e7ec"/>
+<text x="600" y="483.50" font-size="10">11.2</text>
+<path d="M635,440.75 H1130" stroke="#e1e7ec"/>
+<text x="600" y="444.75" font-size="10">16.8</text>
+<path d="M635,402.00 H1130" stroke="#e1e7ec"/>
+<text x="600" y="406.00" font-size="10">22.4</text>
+<rect x="648" y="483.190" width="20" height="73.810" fill="#286ba6"/>
+<rect x="670" y="483.190" width="20" height="73.810" fill="#ce7429"/>
+<text x="645" y="579" font-size="10">FCFS</text>
+<rect x="717" y="483.190" width="20" height="73.810" fill="#286ba6"/>
+<rect x="739" y="483.190" width="20" height="73.810" fill="#ce7429"/>
+<text x="714" y="579" font-size="10">SJF</text>
+<rect x="786" y="483.190" width="20" height="73.810" fill="#286ba6"/>
+<rect x="808" y="483.190" width="20" height="73.810" fill="#ce7429"/>
+<text x="783" y="579" font-size="10">SRTF</text>
+<rect x="855" y="423.220" width="20" height="133.780" fill="#286ba6"/>
+<rect x="877" y="543.161" width="20" height="13.839" fill="#ce7429"/>
+<text x="852" y="579" font-size="10">RR q=1</text>
+<rect x="924" y="420.914" width="20" height="136.086" fill="#286ba6"/>
+<rect x="946" y="528.168" width="20" height="28.832" fill="#ce7429"/>
+<text x="921" y="579" font-size="10">RR q=2</text>
+<rect x="993" y="418.607" width="20" height="138.393" fill="#286ba6"/>
+<rect x="1015" y="499.336" width="20" height="57.664" fill="#ce7429"/>
+<text x="990" y="579" font-size="10">RR q=4</text>
+<rect x="1062" y="483.190" width="20" height="73.810" fill="#286ba6"/>
+<rect x="1084" y="483.190" width="20" height="73.810" fill="#ce7429"/>
+<text x="1059" y="579" font-size="10">RR q=8</text>
+<text x="30" y="642" font-size="16" font-weight="700">bursty</text>
+<path d="M65,832.00 H560" stroke="#e1e7ec"/>
+<text x="30" y="836.00" font-size="10">0.0</text>
+<path d="M65,793.25 H560" stroke="#e1e7ec"/>
+<text x="30" y="797.25" font-size="10">3.2</text>
+<path d="M65,754.50 H560" stroke="#e1e7ec"/>
+<text x="30" y="758.50" font-size="10">6.4</text>
+<path d="M65,715.75 H560" stroke="#e1e7ec"/>
+<text x="30" y="719.75" font-size="10">9.6</text>
+<path d="M65,677.00 H560" stroke="#e1e7ec"/>
+<text x="30" y="681.00" font-size="10">12.7</text>
+<rect x="78" y="711.857" width="20" height="120.143" fill="#286ba6"/>
+<rect x="100" y="711.857" width="20" height="120.143" fill="#ce7429"/>
+<text x="75" y="854" font-size="10">FCFS</text>
+<rect x="147" y="762.043" width="20" height="69.957" fill="#286ba6"/>
+<rect x="169" y="762.043" width="20" height="69.957" fill="#ce7429"/>
+<text x="144" y="854" font-size="10">SJF</text>
+<rect x="216" y="792.459" width="20" height="39.541" fill="#286ba6"/>
+<rect x="238" y="804.626" width="20" height="27.374" fill="#ce7429"/>
+<text x="213" y="854" font-size="10">SRTF</text>
+<rect x="285" y="748.356" width="20" height="83.644" fill="#286ba6"/>
+<rect x="307" y="816.792" width="20" height="15.208" fill="#ce7429"/>
+<text x="282" y="854" font-size="10">RR q=1</text>
+<rect x="354" y="740.752" width="20" height="91.248" fill="#286ba6"/>
+<rect x="376" y="801.584" width="20" height="30.416" fill="#ce7429"/>
+<text x="351" y="854" font-size="10">RR q=2</text>
+<rect x="423" y="724.023" width="20" height="107.977" fill="#286ba6"/>
+<rect x="445" y="757.481" width="20" height="74.519" fill="#ce7429"/>
+<text x="420" y="854" font-size="10">RR q=4</text>
+<rect x="492" y="693.607" width="20" height="138.393" fill="#286ba6"/>
+<rect x="514" y="730.106" width="20" height="101.894" fill="#ce7429"/>
+<text x="489" y="854" font-size="10">RR q=8</text>
+<text x="600" y="642" font-size="16" font-weight="700">mixed-bounded</text>
+<path d="M635,832.00 H1130" stroke="#e1e7ec"/>
+<text x="600" y="836.00" font-size="10">0.0</text>
+<path d="M635,793.25 H1130" stroke="#e1e7ec"/>
+<text x="600" y="797.25" font-size="10">4.4</text>
+<path d="M635,754.50 H1130" stroke="#e1e7ec"/>
+<text x="600" y="758.50" font-size="10">8.8</text>
+<path d="M635,715.75 H1130" stroke="#e1e7ec"/>
+<text x="600" y="719.75" font-size="10">13.1</text>
+<path d="M635,677.00 H1130" stroke="#e1e7ec"/>
+<text x="600" y="681.00" font-size="10">17.5</text>
+<rect x="648" y="700.250" width="20" height="131.750" fill="#286ba6"/>
+<rect x="670" y="700.250" width="20" height="131.750" fill="#ce7429"/>
+<text x="645" y="854" font-size="10">FCFS</text>
+<rect x="717" y="736.786" width="20" height="95.214" fill="#286ba6"/>
+<rect x="739" y="736.786" width="20" height="95.214" fill="#ce7429"/>
+<text x="714" y="854" font-size="10">SJF</text>
+<rect x="786" y="768.893" width="20" height="63.107" fill="#286ba6"/>
+<rect x="808" y="813.179" width="20" height="18.821" fill="#ce7429"/>
+<text x="783" y="854" font-size="10">SRTF</text>
+<rect x="855" y="700.250" width="20" height="131.750" fill="#286ba6"/>
+<rect x="877" y="815.393" width="20" height="16.607" fill="#ce7429"/>
+<text x="852" y="854" font-size="10">RR q=1</text>
+<rect x="924" y="693.607" width="20" height="138.393" fill="#286ba6"/>
+<rect x="946" y="794.357" width="20" height="37.643" fill="#ce7429"/>
+<text x="921" y="854" font-size="10">RR q=2</text>
+<rect x="993" y="696.929" width="20" height="135.071" fill="#286ba6"/>
+<rect x="1015" y="763.357" width="20" height="68.643" fill="#ce7429"/>
+<text x="990" y="854" font-size="10">RR q=4</text>
+<rect x="1062" y="696.929" width="20" height="135.071" fill="#286ba6"/>
+<rect x="1084" y="720.179" width="20" height="111.821" fill="#ce7429"/>
+<text x="1059" y="854" font-size="10">RR q=8</text>
+<text x="24" y="910" font-size="12">Same workload for every policy. Finite CPU-only bursts; no real-kernel or host-runtime performance claim.</text></g></svg>
