@@ -110,4 +110,4 @@ For `A=(0,8), B=(1,4), C=(2,2)` with zero switch cost:
 
 These are deterministic simulated outcomes, not host performance measurements or universal scheduler rankings. The model has one CPU and CPU bursts only, without I/O blocking, priority aging, multicore affinity or real kernel interrupts. Context cost is an abstract constant. Very small RR quanta can still produce many events. Independent oracle coverage is limited to zero-cost switching; nonzero costs use hand-derived cases.
 
-No host performance speedup or real-kernel behavior is claimed. The repository is currently private under `CSE-Shaco`; no license has been selected automatically. [Project review status](docs/provenance.md).
+No host performance speedup or real-kernel behavior is claimed. This project is published in the `CSE-Shaco/cpu-scheduling-simulator` repository. No license has been selected automatically. [Project review status](docs/provenance.md).
