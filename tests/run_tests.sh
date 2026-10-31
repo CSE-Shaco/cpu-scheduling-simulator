@@ -7,3 +7,4 @@ ${CC:-cc} -std=c11 -O2 -Wall -Wextra -Wpedantic -Werror -Iinclude src/simulator.
 ${CC:-cc} -std=c11 -O2 -Wall -Wextra -Wpedantic -Werror -Iinclude src/simulator.c src/main.c -o build/scheduler_c
 python3 tests/test_cli.py ./build/scheduler_c
 python3 tests/differential.py ./build/scheduler_c
+PYTHONDONTWRITEBYTECODE=1 python3 tests/test_experiments.py ./build/scheduler_c

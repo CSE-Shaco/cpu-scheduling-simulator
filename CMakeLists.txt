@@ -18,4 +18,8 @@ if(Python3_Interpreter_FOUND)
     COMMAND ${Python3_EXECUTABLE} ${CMAKE_CURRENT_SOURCE_DIR}/tests/test_cli.py $<TARGET_FILE:scheduler_c>)
   add_test(NAME scheduler_tick_oracle
     COMMAND ${Python3_EXECUTABLE} ${CMAKE_CURRENT_SOURCE_DIR}/tests/differential.py $<TARGET_FILE:scheduler_c>)
+  add_test(NAME scheduler_experiments
+    COMMAND ${Python3_EXECUTABLE} ${CMAKE_CURRENT_SOURCE_DIR}/tests/test_experiments.py $<TARGET_FILE:scheduler_c>)
+  set_tests_properties(scheduler_cli scheduler_tick_oracle scheduler_experiments
+    PROPERTIES ENVIRONMENT "PYTHONDONTWRITEBYTECODE=1")
 endif()
